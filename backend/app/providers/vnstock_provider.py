@@ -29,31 +29,55 @@ class VnstockProvider:
     ) -> None:
         if source.upper() != "VCI":
             raise ValueError("Backend chỉ cho phép nguồn VCI đã qua cổng kiểm chứng")
-        if market is None:
-            # Import trễ để API/kiểm thử không kích hoạt khởi tạo mạng của vnstock.
-            from vnstock import Market
-
-            market = Market()
-        self._market = market
         self._source = "VCI"
         self._history_count = history_count
         self._max_attempts = max(1, max_attempts)
         self._retry_delay = retry_delay
+        self._market = market
+        self._quote_cls = None
+
+        if self._market is None:
+            try:
+                from vnstock_data import Quote
+
+                self._quote_cls = Quote
+            except ImportError:
+                from vnstock import Market
+
+                self._market = Market()
+
+    def _fetch_frame(self, symbol: str, *, start: date, end: date) -> pd.DataFrame:
+        if self._quote_cls is not None:
+            quote = self._quote_cls(symbol=symbol, source=self._source, show_log=False)
+            return quote.history(
+                start=start.isoformat(),
+                end=end.isoformat(),
+                interval="1D",
+                count_back=self._history_count,
+            )
+        if symbol == "VNINDEX":
+            series = self._market.index("VNINDEX")
+        else:
+            series = self._market.equity(symbol)
+        return series.ohlcv(
+            start=start.isoformat(),
+            end=end.isoformat(),
+            interval="1D",
+            count=self._history_count,
+            source=self._source,
+        )
 
     def _fetch(
         self,
-        series: Any,
         *,
         symbol: str,
         start: date,
         end: date,
     ) -> list[PriceBar]:
+        frame = None
         for attempt in range(self._max_attempts):
             try:
-                frame = series.ohlcv(
-                    start=start.isoformat(), end=end.isoformat(), interval="1D",
-                    count=self._history_count, source=self._source,
-                )
+                frame = self._fetch_frame(symbol, start=start, end=end)
                 break
             except Exception:
                 if attempt + 1 == self._max_attempts:
@@ -64,7 +88,6 @@ class VnstockProvider:
     def fetch_equity(self, symbol: str, *, start: date, end: date) -> list[PriceBar]:
         normalized_symbol = symbol.strip().upper()
         return self._fetch(
-            self._market.equity(normalized_symbol),
             symbol=normalized_symbol,
             start=start,
             end=end,
@@ -72,7 +95,6 @@ class VnstockProvider:
 
     def fetch_vnindex(self, *, start: date, end: date) -> list[PriceBar]:
         return self._fetch(
-            self._market.index("VNINDEX"),
             symbol="VNINDEX",
             start=start,
             end=end,
