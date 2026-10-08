@@ -1,0 +1,72 @@
+{
+  "pipelineId": "debug_fix_current_sheet_refresh_failure_20260818_081707",
+  "workflow": "fix",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-18T08:17:07",
+  "classification": {
+    "category": "debug_fix",
+    "complexity": "complex",
+    "tdd": true,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "analysis",
+      "role": "07-bugfinder",
+      "dependsOn": [],
+      "changesCode": false
+    },
+    {
+      "id": "plan",
+      "role": "05-plan",
+      "dependsOn": [
+        "analysis"
+      ],
+      "requiresApproval": true,
+      "gateId": "fix_plan_approval",
+      "changesCode": false
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "08-fix",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "analysis",
+    "plan",
+    "verification",
+    "implementation",
+    "review"
+  ],
+  "currentPhaseIndex": 5,
+  "logFile": "docs/harness-logs/debug_fix_current_sheet_refresh_failure_20260818_081707.md",
+  "approvedGates": [
+    "fix_plan_approval"
+  ],
+  "planFile": "docs/plan/plan_debug_fix_google_sheet_header_refresh_20260818.md",
+  "pendingGate": null
+}

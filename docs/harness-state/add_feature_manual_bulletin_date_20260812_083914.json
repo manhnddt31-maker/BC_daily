@@ -1,0 +1,67 @@
+{
+  "pipelineId": "add_feature_manual_bulletin_date_20260812_083914",
+  "workflow": "implement",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-12T08:39:14",
+  "classification": {
+    "category": "add_feature",
+    "complexity": "complex",
+    "tdd": true,
+    "causeKnown": true
+  },
+  "phases": [
+    {
+      "id": "brainstorm",
+      "role": "03-brainstorm",
+      "dependsOn": [],
+      "changesCode": false
+    },
+    {
+      "id": "plan",
+      "role": "05-plan",
+      "dependsOn": [
+        "brainstorm"
+      ],
+      "requiresApproval": true,
+      "gateId": "plan_approval",
+      "changesCode": false
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "06-implement",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "brainstorm",
+    "plan",
+    "verification",
+    "implementation",
+    "review"
+  ],
+  "currentPhaseIndex": 5,
+  "logFile": "docs/harness-logs/add_feature_manual_bulletin_date_20260812_083914.md"
+}

@@ -1,0 +1,58 @@
+{
+  "pipelineId": "adaptation_supabase_snapshot_delivery_20260924_084943",
+  "workflow": "implement",
+  "status": "COMPLETED",
+  "createdAt": "2026-09-24T08:49:43",
+  "classification": {
+    "category": "adaptation",
+    "complexity": "complex",
+    "tdd": true,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "plan",
+      "role": "05-plan",
+      "dependsOn": [],
+      "requiresApproval": true,
+      "gateId": "plan_approval",
+      "changesCode": false
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "06-implement",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "plan",
+    "verification",
+    "implementation",
+    "review"
+  ],
+  "currentPhaseIndex": 4,
+  "logFile": "docs/harness-logs/adaptation_supabase_snapshot_delivery_20260924_084943.md"
+}

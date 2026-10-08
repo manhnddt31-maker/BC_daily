@@ -1,0 +1,29 @@
+{
+  "package": "vnstock",
+  "packageVersion": "4.0.8",
+  "source": "vci",
+  "requestedBars": 700,
+  "minimumBars": 300,
+  "minimumCoverage": 0.95,
+  "attempts": 2,
+  "adjustmentEvents": [
+    {
+      "symbol": "FPT",
+      "recordDate": "2024-06-13",
+      "stockDividendRatio": 0.15,
+      "windowStart": "2024-06-10",
+      "windowEnd": "2024-06-14",
+      "maximumAbsoluteReturn": 0.1,
+      "primaryEvidence": "https://fpt.com/-/media/project/fpt-corporation/fpt/ir/general-meetings-of-shareholders/fpt_annual_report_2024.pdf"
+    },
+    {
+      "symbol": "FPT",
+      "recordDate": "2025-07-22",
+      "stockDividendRatio": 0.15,
+      "windowStart": "2025-07-18",
+      "windowEnd": "2025-07-23",
+      "maximumAbsoluteReturn": 0.1,
+      "primaryEvidence": "https://bctn2025.fpt.com/corporate-governance/corporate-governance-in-2025/"
+    }
+  ]
+}

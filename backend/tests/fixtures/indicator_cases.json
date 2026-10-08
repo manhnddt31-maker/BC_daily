@@ -1,0 +1,44 @@
+{
+  "linearSeries": {
+    "description": "Chuỗi 205 phiên tăng đều để khóa cửa sổ và phép chia",
+    "count": 205,
+    "closeStart": 1.0,
+    "closeStep": 1.0,
+    "highOffset": 1.0,
+    "volumeStart": 1000.0,
+    "volumeStep": 1000.0,
+    "expected": {
+      "roc9": 4.591836734693878,
+      "roc26": 14.52513966480447,
+      "roc33": 19.186046511627907,
+      "roc52": 33.98692810457516,
+      "ma10": 200.5,
+      "ma20": 195.5,
+      "ma50": 180.5,
+      "ma200": 105.5,
+      "highAverage4": 204.5,
+      "volumeAverage10": 200500.0,
+      "volumeRatio": 1.0224438902743143,
+      "ma50Slope5": 0.02849002849002849,
+      "rsRaw": 15.37635755007906
+    }
+  },
+  "percentile": {
+    "rawScores": {
+      "AAA": 10.0,
+      "BBB": 20.0,
+      "CCC": 20.0,
+      "DDD": 40.0
+    },
+    "expectedRankings": {
+      "AAA": 0.0,
+      "BBB": 50.0,
+      "CCC": 50.0,
+      "DDD": 100.0
+    }
+  },
+  "singleValidSymbol": {
+    "rawScores": { "AAA": 10.0 },
+    "expectedRankings": { "AAA": 100.0 }
+  }
+}

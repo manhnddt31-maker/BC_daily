@@ -1,0 +1,2166 @@
+{
+  "package": "vnstock",
+  "packageVersion": "4.0.8",
+  "source": "vci",
+  "checkedSymbols": 265,
+  "passedSymbols": 255,
+  "coveragePercent": 96.22641509433963,
+  "symbols": [
+    {
+      "symbol": "FRT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DGW",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TLG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VGT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PNJ",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "GIL",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MWG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PET",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TNG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CAR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2022-09-27",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PSD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BVH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PVI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MIG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HTN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VHM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VRE",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CEO",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: High nhỏ hơn giá thành phần"
+    },
+    {
+      "symbol": "TAL",
+      "status": "PASS",
+      "bars": 663,
+      "first_date": "2024-01-09",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DXG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "QCG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DIG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NLG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VPI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HDG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KSF",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PDR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VIC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SJS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "THD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NVL",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SIP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HDC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "IJC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "LSG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KDH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KHG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DXS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HQC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CRE",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NRC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "LDG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "AGG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HPX",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SCR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TIG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "IDJ",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KOS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NDN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "AAV",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-17",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VC3",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NTL",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "FIR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TRC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SZL",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "GVR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BCM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SZC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "LHG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PHR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DPR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "IDC",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: Low lớn hơn giá thành phần"
+    },
+    {
+      "symbol": "NTC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-16",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KBC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PHP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PVT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PVP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DXP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VTP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-17",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "GMD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VOS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HAH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VSC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TCO",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NCT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PDN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BVS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SSI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VIX",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VCI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VFS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TVS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CTS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HCM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BSI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "FTS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DSE",
+      "status": "PASS",
+      "bars": 556,
+      "first_date": "2024-07-01",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MBS",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: Low lớn hơn giá thành phần"
+    },
+    {
+      "symbol": "ABW",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ORS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "APG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SHS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VDS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VND",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SBS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "EVS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BMS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-27",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PSI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "FPT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VGI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "FOX",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ELC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CMG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TDP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "LLM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-10-25",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SBG",
+      "status": "PASS",
+      "bars": 697,
+      "first_date": "2023-12-01",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VEA",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SHI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HPG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HSG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "REE",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "GAS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ASP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PVS",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: High nhỏ hơn giá thành phần"
+    },
+    {
+      "symbol": "BSR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-16",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PLX",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PVD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PVC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PVB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PPT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TCM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MSH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TV2",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PAN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HVN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VPL",
+      "status": "PASS",
+      "bars": 342,
+      "first_date": "2025-05-13",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SCS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VJC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VTD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DCL",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DBD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TTA",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "GEG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TDM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-23",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PPC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "QTP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "POW",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NT2",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BWE",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ACV",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HII",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "APH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DPM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DGC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PAT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DCM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PLC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CSV",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "AAA",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PCH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "LAS",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: Low lớn hơn giá thành phần"
+    },
+    {
+      "symbol": "VTZ",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BFC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DDV",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KSV",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: High nhỏ hơn giá thành phần"
+    },
+    {
+      "symbol": "MSR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KSB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DHC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HHP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MZG",
+      "status": "PASS",
+      "bars": 454,
+      "first_date": "2024-11-12",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TCB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MBB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HDB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "STB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KLB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-20",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BID",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VPB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "OCB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VCB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NVB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SSB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VIB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CTG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TPB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SHB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ABB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VAB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-16",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ACB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "EIB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "LPB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BVB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-16",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NAB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-20",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MSB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VBB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-14",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BAF",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HNG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-16",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CTF",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HHS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TCH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HAX",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DRC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CSM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VVS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-16",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "APS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "AGR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "EVF",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "F88",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: Chỉ có 279 phiên, cần tối thiểu 300"
+    },
+    {
+      "symbol": "TIN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-10-10",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TVN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VGS",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: High nhỏ hơn giá thành phần"
+    },
+    {
+      "symbol": "NKG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "GEX",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PAC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "GEE",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-02",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ANV",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VHC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HSL",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "AIG",
+      "status": "PASS",
+      "bars": 463,
+      "first_date": "2024-11-11",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SBT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SEA",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "KDC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MCH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-21",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VNM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MSN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DBC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SAB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "IDI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NAF",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BIG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HAG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "AFX",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-20",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ASM",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ANT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-21",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BNA",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-08-23",
+      "last_date": "2026-09-18",
+      "error": null
+    },
+    {
+      "symbol": "DST",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "FOC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "YEG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SCL",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TSA",
+      "status": "PASS",
+      "bars": 554,
+      "first_date": "2024-06-25",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DSH",
+      "status": "PASS",
+      "bars": 340,
+      "first_date": "2025-04-22",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SVN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-13",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DHA",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CDC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CTR",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VGC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "L14",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "SCG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "FCN",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "MST",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CII",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CTD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DPG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HT1",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HVH",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "LCG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "NTP",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: High nhỏ hơn giá thành phần"
+    },
+    {
+      "symbol": "NNC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VCG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HHV",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CTI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "EVG",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PTB",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VNE",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-14",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "TNI",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "ACC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-17",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "C69",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "VCS",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "BMP",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "C4G",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "DTD",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "PC1",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "L40",
+      "status": "FAIL",
+      "bars": 0,
+      "first_date": null,
+      "last_date": null,
+      "error": "ValueError: Low lớn hơn giá thành phần"
+    },
+    {
+      "symbol": "HBC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-16",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "HUT",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    },
+    {
+      "symbol": "CRC",
+      "status": "PASS",
+      "bars": 700,
+      "first_date": "2023-11-28",
+      "last_date": "2026-09-23",
+      "error": null
+    }
+  ],
+  "vnindex": {
+    "symbol": "VNINDEX",
+    "status": "PASS",
+    "bars": 700,
+    "first_date": "2023-11-28",
+    "last_date": "2026-09-23",
+    "error": null
+  },
+  "adjustmentEvidence": [
+    {
+      "symbol": "FPT",
+      "recordDate": "2024-06-13",
+      "stockDividendRatio": 0.15,
+      "windowStart": "2024-06-10",
+      "windowEnd": "2024-06-14",
+      "maximumAbsoluteReturn": 0.1,
+      "primaryEvidence": "https://fpt.com/-/media/project/fpt-corporation/fpt/ir/general-meetings-of-shareholders/fpt_annual_report_2024.pdf",
+      "observedMaximumAbsoluteReturn": 0.04337425,
+      "status": "PASS",
+      "reason": "Chuỗi không có bước nhảy kỹ thuật vượt ngưỡng quanh sự kiện"
+    },
+    {
+      "symbol": "FPT",
+      "recordDate": "2025-07-22",
+      "stockDividendRatio": 0.15,
+      "windowStart": "2025-07-18",
+      "windowEnd": "2025-07-23",
+      "maximumAbsoluteReturn": 0.1,
+      "primaryEvidence": "https://bctn2025.fpt.com/corporate-governance/corporate-governance-in-2025/",
+      "observedMaximumAbsoluteReturn": 0.01634488,
+      "status": "PASS",
+      "reason": "Chuỗi không có bước nhảy kỹ thuật vượt ngưỡng quanh sự kiện"
+    }
+  ],
+  "adjustmentStatus": "EMPIRICAL_PASS",
+  "overallStatus": "PASS"
+}

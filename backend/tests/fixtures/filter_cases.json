@@ -1,0 +1,44 @@
+{
+  "vnIndexRoc26": 10.0,
+  "base": {
+    "sector": "Công nghệ",
+    "close": 30.0,
+    "highAvg4d": 29.0,
+    "volume": 600000.0,
+    "averageVolume10d": 300000.0,
+    "rsLast3": [80.0, 82.0, 84.0],
+    "rsAverage3d": 82.0,
+    "rsRanking": 82.0,
+    "roc26": 15.0,
+    "ma20": 28.0,
+    "ma50": 25.0,
+    "ma50Slope5d": 0.02
+  },
+  "strong": {
+    "symbols": [
+      { "ticker": "STRICT_B", "rsRanking": 91.0, "roc26": 14.0 },
+      { "ticker": "STRICT_A", "rsRanking": 95.0, "roc26": 13.0 },
+      { "ticker": "NEAR_A", "rsRanking": 99.0, "roc26": 9.9 },
+      { "ticker": "NEAR_B", "rsRanking": 98.0, "roc26": 9.5 },
+      { "ticker": "ILLIQUID", "rsRanking": 100.0, "roc26": 20.0, "volume": 300000.0 }
+    ],
+    "expectedOrder": ["STRICT_A", "STRICT_B", "NEAR_A", "NEAR_B"]
+  },
+  "potential": {
+    "symbols": [
+      { "ticker": "STRICT_A", "rsAverage3d": 88.0 },
+      { "ticker": "STRICT_B", "rsAverage3d": 86.0 },
+      { "ticker": "ONE_FAIL", "ma50Slope5d": 0.0, "rsAverage3d": 89.0 },
+      { "ticker": "TWO_FAIL", "ma50Slope5d": 0.0, "close": 27.0, "rsAverage3d": 90.0 },
+      { "ticker": "ILLIQUID", "volume": 300000.0, "rsAverage3d": 90.0 }
+    ],
+    "expectedOrder": ["STRICT_A", "STRICT_B", "ONE_FAIL", "TWO_FAIL"]
+  },
+  "closedBoundaries": {
+    "rsMinimum": 75.0,
+    "rsMaximum": 90.0,
+    "rocMinimum": 10.0,
+    "rocMaximum": 20.0,
+    "volumeRatioMinimum": 1.5
+  }
+}

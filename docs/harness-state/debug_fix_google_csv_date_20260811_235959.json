@@ -1,0 +1,38 @@
+{
+  "pipelineId": "debug_fix_google_csv_date_20260811_235959",
+  "workflow": "fix",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-11T23:59:59",
+  "classification": {
+    "category": "debug_fix",
+    "complexity": "simple",
+    "tdd": true,
+    "causeKnown": true
+  },
+  "phases": [
+    {
+      "id": "implementation",
+      "role": "08-fix",
+      "dependsOn": [],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "implementation",
+    "review"
+  ],
+  "currentPhaseIndex": 2,
+  "logFile": "docs/harness-logs/debug_fix_google_csv_date_20260811_235959.md"
+}

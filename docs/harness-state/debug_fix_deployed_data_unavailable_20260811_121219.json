@@ -1,0 +1,43 @@
+{
+  "pipelineId": "debug_fix_deployed_data_unavailable_20260811_121219",
+  "workflow": "fix",
+  "status": "RUNNING",
+  "createdAt": "2026-08-11T12:12:19",
+  "classification": {
+    "category": "debug_fix",
+    "complexity": "simple",
+    "tdd": true,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "analysis",
+      "role": "07-bugfinder",
+      "dependsOn": [],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "08-fix",
+      "dependsOn": [
+        "analysis"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [],
+  "currentPhaseIndex": 0,
+  "logFile": "docs/harness-logs/debug_fix_deployed_data_unavailable_20260811_121219.md"
+}

@@ -1,0 +1,47 @@
+{
+  "pipelineId": "debug_fix_match_demo_ui_20260811_090929",
+  "workflow": "fix",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-11T09:09:29",
+  "classification": {
+    "category": "debug_fix",
+    "complexity": "simple",
+    "tdd": false,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "analysis",
+      "role": "07-bugfinder",
+      "dependsOn": [],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "08-fix",
+      "dependsOn": [
+        "analysis"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "analysis",
+    "implementation",
+    "review"
+  ],
+  "currentPhaseIndex": 3,
+  "logFile": "docs/harness-logs/debug_fix_match_demo_ui_20260811_090929.md"
+}

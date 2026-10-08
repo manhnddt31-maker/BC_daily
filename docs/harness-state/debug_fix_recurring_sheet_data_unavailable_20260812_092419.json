@@ -1,0 +1,58 @@
+{
+  "pipelineId": "debug_fix_recurring_sheet_data_unavailable_20260812_092419",
+  "workflow": "fix",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-12T09:24:19",
+  "classification": {
+    "category": "debug_fix",
+    "complexity": "complex",
+    "tdd": true,
+    "causeKnown": true
+  },
+  "phases": [
+    {
+      "id": "plan",
+      "role": "05-plan",
+      "dependsOn": [],
+      "requiresApproval": true,
+      "gateId": "fix_plan_approval",
+      "changesCode": false
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "08-fix",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "plan",
+    "verification",
+    "implementation",
+    "review"
+  ],
+  "currentPhaseIndex": 4,
+  "logFile": "docs/harness-logs/debug_fix_recurring_sheet_data_unavailable_20260812_092419.md"
+}

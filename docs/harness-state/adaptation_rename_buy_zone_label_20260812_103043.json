@@ -1,0 +1,47 @@
+{
+  "pipelineId": "adaptation_rename_buy_zone_label_20260812_103043",
+  "workflow": "implement",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-12T10:30:43",
+  "classification": {
+    "category": "adaptation",
+    "complexity": "simple",
+    "tdd": false,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "implementation",
+      "role": "06-implement",
+      "dependsOn": [],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "implementation",
+    "verification",
+    "review"
+  ],
+  "currentPhaseIndex": 3,
+  "logFile": "docs/harness-logs/adaptation_rename_buy_zone_label_20260812_103043.md"
+}

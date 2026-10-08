@@ -1,0 +1,72 @@
+{
+  "pipelineId": "new_project_daily_market_bulletin_20260810_153353",
+  "workflow": "init",
+  "status": "RUNNING",
+  "createdAt": "2026-08-10T15:33:53",
+  "classification": {
+    "category": "new_project",
+    "complexity": "complex",
+    "tdd": true,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "brainstorm",
+      "role": "03-brainstorm",
+      "dependsOn": [],
+      "changesCode": false
+    },
+    {
+      "id": "plan",
+      "role": "05-plan",
+      "dependsOn": [
+        "brainstorm"
+      ],
+      "requiresApproval": true,
+      "gateId": "init_plan_approval",
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "stage": "implementation",
+      "role": "06-implement",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": true,
+      "parallelGroup": "implementation",
+      "dynamicFanOut": true
+    },
+    {
+      "id": "ui-design",
+      "stage": "implementation",
+      "role": "04-ui-design",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "implementation",
+        "ui-design"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [],
+  "currentPhaseIndex": 0,
+  "logFile": "docs/harness-logs/new_project_daily_market_bulletin_20260810_153353.md"
+}

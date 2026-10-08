@@ -1,0 +1,65 @@
+{
+  "pipelineId": "migration_vnstock_data_backend_20260923_162324",
+  "workflow": "implement",
+  "status": "RUNNING",
+  "createdAt": "2026-09-23T16:23:24",
+  "classification": {
+    "category": "migration",
+    "complexity": "complex",
+    "tdd": true,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "brainstorm",
+      "role": "03-brainstorm",
+      "dependsOn": [],
+      "changesCode": false
+    },
+    {
+      "id": "plan",
+      "role": "05-plan",
+      "dependsOn": [
+        "brainstorm"
+      ],
+      "requiresApproval": true,
+      "gateId": "plan_approval",
+      "changesCode": false
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "06-implement",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "brainstorm",
+    "plan",
+    "verification"
+  ],
+  "currentPhaseIndex": 3,
+  "logFile": "docs/harness-logs/migration_vnstock_data_backend_20260923_162324.md"
+}

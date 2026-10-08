@@ -1,0 +1,1 @@
+"""Lớp truy cập PostgreSQL."""

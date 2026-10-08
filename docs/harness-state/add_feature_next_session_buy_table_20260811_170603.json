@@ -1,0 +1,72 @@
+{
+  "pipelineId": "add_feature_next_session_buy_table_20260811_170603",
+  "workflow": "implement",
+  "status": "COMPLETED",
+  "createdAt": "2026-08-11T17:06:03",
+  "classification": {
+    "category": "add_feature",
+    "complexity": "complex",
+    "tdd": true,
+    "causeKnown": false
+  },
+  "phases": [
+    {
+      "id": "brainstorm",
+      "role": "03-brainstorm",
+      "dependsOn": [],
+      "changesCode": false
+    },
+    {
+      "id": "plan",
+      "role": "05-plan",
+      "dependsOn": [
+        "brainstorm"
+      ],
+      "requiresApproval": true,
+      "gateId": "plan_approval",
+      "changesCode": false
+    },
+    {
+      "id": "verification",
+      "role": "09-test",
+      "dependsOn": [
+        "plan"
+      ],
+      "changesCode": false
+    },
+    {
+      "id": "implementation",
+      "role": "06-implement",
+      "dependsOn": [
+        "verification"
+      ],
+      "changesCode": true,
+      "stage": "implementation",
+      "dynamicFanOut": true,
+      "parallelGroup": "implementation"
+    },
+    {
+      "id": "review",
+      "role": "10-review",
+      "dependsOn": [
+        "implementation"
+      ],
+      "changesCode": false,
+      "finalVerification": true
+    }
+  ],
+  "completedPhases": [
+    "brainstorm",
+    "plan",
+    "verification",
+    "implementation",
+    "review"
+  ],
+  "currentPhaseIndex": 4,
+  "currentPhase": "review",
+  "pendingGate": null,
+  "executionWave": 8,
+  "logFile": "docs/harness-logs/add_feature_next_session_buy_table_20260811_170603.md",
+  "specFile": "docs/spec/spec_add_feature_next-session-buy-table_20260811.md",
+  "planFile": "docs/plan/plan_add_feature_next-session-buy-table_20260811.md"
+}

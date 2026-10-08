@@ -1,0 +1,6 @@
+import type { MarketBreadth as MarketBreadthData } from "../lib/types";
+
+export function MarketBreadth({ breadth }: { breadth: MarketBreadthData | null }) {
+  const entries = breadth ? [["MA10", breadth.ma10], ["MA20", breadth.ma20], ["MA50", breadth.ma50], ["MA200", breadth.ma200]] : [];
+  return <section className="panel breadth-panel"><h2>SỐ LƯỢNG CỔ PHIẾU TRÊN CÁC ĐƯỜNG MA</h2>{entries.length === 0 ? <div className="empty-panel">Chưa có dữ liệu MA.</div> : <div className="breadth-grid">{entries.map(([label, value]) => { const positive = Number(value) >= 50; const points = positive ? "5,90 20,75 35,80 50,62 65,66 80,45 95,50 115,24" : "5,18 22,30 38,25 54,42 70,39 86,57 102,62 116,82"; return <div className={`breadth-item ${positive ? "positive" : "negative"}`} key={label}><span className="breadth-label">&gt; {label}</span><strong className="breadth-value">{Number(value).toFixed(2)}%</strong><svg className="breadth-spark" viewBox="0 0 120 100" preserveAspectRatio="none" aria-hidden="true"><polyline points={points} fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" /><circle cx="116" cy={positive ? 24 : 82} r="5" fill="currentColor" /></svg></div>; })}</div>}</section>;
+}
